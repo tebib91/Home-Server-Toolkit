@@ -7,7 +7,7 @@ if [ "${EUID:-$(id -u)}" -ne 0 ]; then
 fi
 
 # Create a timestamped reports directory and a convenient symlink
-ROOT_DIR="$(cd "$(dirname "$0")"/.. && pwd)"
+ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPORTS_BASE="$ROOT_DIR/reports"
 RUN_ID="$(date +%Y%m%d-%H%M%S)"
 REPORTS_DIR="$REPORTS_BASE/$RUN_ID"
