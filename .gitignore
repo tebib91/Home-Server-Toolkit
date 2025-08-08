@@ -1,0 +1,18 @@
+# Reports & logs
+reports/
+*.log
+*.dat
+*.nmap
+*.csv
+
+# System/OS cruft
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.swp
